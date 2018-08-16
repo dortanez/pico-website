@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+	background-color: #262626;
+	display: block;
+	height: 70px;
+}
+
+nav p {
+	color: white;
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	font-family: "georgia";
+	font-weight: bold;
+	font-size: 20px
+
+}
+
+nav ul {
+	float: right;
+	padding: 20px 40px;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 15px;
+
+}
+
+nav ul li a {
+	color: white;
+	font-size: 12px;
+	font-family: "helvetica"
+}
+
+nav ul li a span {
+	color: #FF6760;
+}
+
+
+
+/* FIRST DIV */
+.box1 {
+	background-color: #2A2A2A;
+	text-align: center;
+	padding: 40px;
+}
+
+.box1 h1 {
+	color: white;
+	font-weight: lighter;
+	padding: 20px 0;
+
+}
+
+.box1 h1 > span {
+	font-weight: bold;
+}
+
+.box1 p {
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+	margin: 0;
+
+}
+
+.box1 p > span {
+	color: #FF6760;
+}
+
+.box1 button {
+	color: white;
+	background-color: #FF6760;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 15px;
+	font-size: 12px;
+	margin: 20px;
+}
+
+
+
+/* SECOND DIV */
+.box2 {
+	text-align: center;
+	background-color: #F6F6F6;
+}
+
+.box2 #feature {
+	width: 33.33%;
+	display: inline-block;
+	color: #616161;
+	font-family: "times new roman";
+	float: left;
+	padding: 10px 5px;
+}
+
+.box2 #feature i {
+	font-size: 40px;
+	padding: 10px;
+}
+
+.box2 #feature h6 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.box2 #feature p {
+	font-size: 13px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+@media screen and (min-width: 800px) {
+	.box2 #feature p {
+		padding: 0 50px;
+	}
+}
